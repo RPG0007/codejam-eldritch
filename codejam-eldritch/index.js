@@ -604,7 +604,7 @@ ancients.forEach((element,i) => {
     document.querySelector('.deck_container').style.visibility = 'hidden'
     document.querySelector('.deck_preview').style.visibility = 'hidden'
     document.querySelector('.difficulty_container').style.visibility = 'visible'
-    
+    difficulties.forEach(el=>el.classList.remove('active')) 
  })
 })
  difficulties.forEach((element,i)=>{
